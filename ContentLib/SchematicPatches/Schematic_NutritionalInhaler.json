@@ -1,0 +1,7 @@
+//Game/FactoryGame/Schematics/Research/Nutrients/Research_Nutrients_4.Research_Nutrients_4_C
+{
+    "$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/main/JsonSchemas/CL_Schematic.json",
+    "Recipes": [
+        "Recipe_NutritionalInhalerAlt"
+    ]
+}

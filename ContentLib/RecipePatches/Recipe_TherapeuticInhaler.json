@@ -1,0 +1,32 @@
+//Game/FactoryGame/Recipes/Equipment/Recipe_TherapeuticInhaler.Recipe_TherapeuticInhaler_C
+{
+    "$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/main/JsonSchemas/CL_Recipe.json",
+    "Name": "Therapeutic Inhaler",
+    "Ingredients": [
+        {
+            "Item": "Desc_Mycelia",
+            "Amount": 15
+        },
+        {
+            "Item": "Desc_Shroom",
+            "Amount": 1
+        },
+        {
+            "Item": "Desc_AlienProtein",
+            "Amount": 1
+        }
+    ],
+    "Products": [
+        {
+            "Item": "Desc_Medkit",
+            "Amount": 1
+        }
+    ],
+    "ManufacturingDuration": 20,
+    "ProducedIn": [
+        "Build_ManufacturerMk1", "manual"
+    ],
+    "UnlockedBy": [
+        "Research_Mycelia_6_C"
+    ]
+}

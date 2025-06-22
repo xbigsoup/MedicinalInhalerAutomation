@@ -1,0 +1,31 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0.1",
+	"SemVersion": "1.0.1",
+	"GameVersion": ">=416835",
+	"FriendlyName": "Medicinal Inhaler Automation",
+	"Description": "Automate medicinal inhalers",
+	"Category": "Modding",
+	"CreatedBy": "xbigsoup",
+	"CreatedByURL": "",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"CanContainContent": true,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"Plugins": [
+		{
+			"Name": "ContentLib",
+			"Enabled": true,
+			"SemVersion": "^1.6.0"
+		},
+		{
+			"Name": "SML",
+			"Enabled": true,
+			"SemVersion": "^3.11.1"
+		}
+	]
+}

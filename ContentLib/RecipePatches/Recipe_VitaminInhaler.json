@@ -1,0 +1,28 @@
+//Game/FactoryGame/Recipes/Equipment/Recipe_MedicinalInhaler.Recipe_MedicinalInhaler_C
+{
+    "$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/main/JsonSchemas/CL_Recipe.json",
+    "Name": "Vitamin Inhaler",
+    "Ingredients": [
+        {
+            "Item": "Desc_Mycelia",
+            "Amount": 10
+        },
+        {
+            "Item": "Desc_Berry",
+            "Amount": 5
+        }
+    ],
+    "Products": [
+        {
+            "Item": "Desc_Medkit",
+            "Amount": 1
+        }
+    ],
+    "ManufacturingDuration": 20,
+    "ProducedIn": [
+        "Build_AssemblerMk1", "manual"
+    ],
+    "UnlockedBy": [
+        "Research_Mycelia_5_C"
+    ]
+}

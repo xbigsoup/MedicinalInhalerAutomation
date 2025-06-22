@@ -1,0 +1,28 @@
+//Game/FactoryGame/Recipes/Equipment/Recipe_MedicinalInhalerAlienOrgans.Recipe_MedicinalInhalerAlienOrgans_C
+{
+    "$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/main/JsonSchemas/CL_Recipe.json",
+    "Name": "Protein Inhaler",
+    "Ingredients": [
+        {
+            "Item": "Desc_AlienProtein",
+            "Amount": 1
+        },
+        {
+            "Item": "Desc_Nut",
+            "Amount": 10
+        }
+    ],
+    "Products": [
+        {
+            "Item": "Desc_Medkit",
+            "Amount": 1
+        }
+    ],
+    "ManufacturingDuration": 20,
+    "ProducedIn": [
+        "Build_AssemblerMk1", "manual"
+    ],
+    "UnlockedBy": [
+        "Research_AOrgans_2_C"
+    ]
+}
